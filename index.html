@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Body Mass Index ।। BMI Application</title>
+
+    <!-- custom fonts using Google Fonts  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Ysabeau:wght@300;400;600;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Use CSS to style  -->
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  
+  <body class="">
+
+    <main class="main_BMI_content">
+
+        <!-- header  -->
+        <header>
+            <h1>BMI Calculator</h1>
+            <h3>You Can calculate Your BMI</h3>
+            <p> Enter Your Weight and Height </p>
+        </header>
+
+        <!-- section for input area -->
+        <section class="bmi_form_box">
+            <!-- weight input  -->
+            <div class="weightInputBox">
+                <label>Weight</label>
+                <input
+                    id="weightInput"
+                    class=""
+                    type="text"
+                    placeholder="Example: 50 kg"
+                />
+                <small> Kg </small>
+            </div>
+            <!-- height input  -->
+            <div class="heightInputBox">
+                <label>Height</label>
+                <input
+                    id="heightInput"
+                    class=""
+                    type="text"
+                    placeholder="Example: 65 inch"
+                />
+                <small> inch </small>
+            </div>
+            <!-- submit button  -->
+            <button class="submitBtn" id="calculateBtn" onclick="bmiValue()" >Result</button>
+        </section>
+
+        <!-- footer for result show area  -->
+        <footer>
+            <div class="resultShowBox" >
+                <h2 id="result_show_div"></h2>
+            </div>
+        </footer>
+
+    </main>
+
+    <script src="calculate.js"></script>
+
+  </body>
+</html>

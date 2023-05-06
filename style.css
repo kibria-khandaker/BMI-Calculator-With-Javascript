@@ -1,0 +1,78 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Ysabeau:wght@300;400;600;700&display=swap'); */
+
+body {
+  font-family: "Ysabeau", sans-serif;
+  color: blueviolet;
+}
+main {
+    width: 500px;
+    height: 450px;
+    margin: 0 auto;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: #e1edff;
+    background-image: url(./img/bmi_bg.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-blend-mode: soft-light;
+}
+
+/*-----*/
+header h1,h3,p{
+    margin: 0;
+    text-align: center;
+}
+header p{
+    margin-top: 20px;
+}
+
+/*-----*/
+section {
+}
+.bmi_form_box {
+    border-radius: 5px;
+    width: 318px;
+    padding: 10px;
+    margin: 0 auto;
+}
+.bmi_form_box  input:focus{
+outline: none;
+}
+.bmi_form_box  input{
+    border: 1px solid #acc9f5;
+    background: transparent;
+    border-radius: 5px;
+    padding: 5px;
+    color: blueviolet;
+}
+.weightInputBox,.heightInputBox,.submitBtn{
+    font-size: 22px;
+    font-weight: 600;
+    margin-bottom: 7px;
+}
+
+.submitBtn {
+    background: blueviolet;
+    border: navajowhite;
+    border-radius: 5px;
+    display: block;
+    margin: 0 auto;
+    padding: 7px 17px;
+    margin-top: 20px;
+    color: #fff;
+}
+
+/*-----*/
+footer{
+    margin-top: 20px;
+}
+.resultShowBox {
+    text-align: center;
+    /* width: 300px; */
+    margin: 0 auto;
+    background-color:blueviolet;
+    color: #fff;
+    
+}
+.resultShowBox h2{margin: 0; line-height: 2.5;}
