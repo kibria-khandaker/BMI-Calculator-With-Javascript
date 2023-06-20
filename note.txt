@@ -1,4 +1,4 @@
-Live Link: https://6456de9c95db9d7bd47ee5e1--flourishing-swan-2e96c3.netlify.app/
+Live Link: https://flourishing-swan-2e96c3.netlify.app/
 
 
 to Publish for deploy need create a folder and put here 
