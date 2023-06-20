@@ -5,7 +5,7 @@ body {
   color: blueviolet;
 }
 main {
-    width: 300px;
+    width: 318px;
     height: 450px;
     margin: 0 auto;
     padding: 10px;
@@ -78,5 +78,11 @@ footer{
 .resultShowBox h2{margin: 0; line-height: 2.5;}
 .BMI_Categories{
     text-align: center;
-    color: red;
+    font-weight: 700;
 }
+.color_1{color: #d8c200;}
+.color_2{color: green;}
+.color_3{color: #d8c200;}
+.color_4{color: rgb(255, 0, 0)}
+.color_5{color: rgb(189, 1, 1);}
+.color_6{color: rgb(134, 0, 0);}
